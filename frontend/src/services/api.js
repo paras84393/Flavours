@@ -308,7 +308,7 @@ export const orderAPI = {
   },
 };
 
-const API = "http://localhost:5000/api/gallery";
+const API = "https://flavours-t8ru.onrender.com/api/gallery";
 
 export const getGallery = async () => {
     const res = await fetch(API);
