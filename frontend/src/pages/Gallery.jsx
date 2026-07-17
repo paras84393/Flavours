@@ -67,7 +67,7 @@ export default function Gallery() {
 
                 {post.images?.length > 0 ? (
                   <img
-                    src={`http://localhost:5000${post.images[0].url}`}
+                    src={`https://flavours-t8ru.onrender.com${post.images[0].url}`}
                     alt={post.title}
                     className="w-full h-64 object-cover"
                   />

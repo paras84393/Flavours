@@ -34,7 +34,7 @@ export default function GalleryManagement() {
       const token = localStorage.getItem("adminToken");
 
       const response = await fetch(
-        "http://localhost:5000/api/gallery",
+        "https://flavours-t8ru.onrender.com/api/gallery",
         {
           method: "POST",
           headers: {
