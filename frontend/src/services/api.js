@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api';
+const API_URL='https://flavours-t8ru.onrender.com/api';
 
 // Get token from localStorage
 const getToken = () => {
